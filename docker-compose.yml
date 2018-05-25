@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+
+  hackrfandroid:
+    build: .
+    image: hackrfandroid
+    volumes:
+      - ./outputs:/outputs
+
